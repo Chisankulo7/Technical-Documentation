@@ -1,0 +1,25 @@
+@media only screen and (max-width:900px) {#navbar {
+
+    float: left;
+    position: absolute;
+    background-color: bisque;
+    display: block;
+    z-index: 1;
+    border-bottom: 1px solid;
+    padding:0px ;
+    margin:0px;
+}
+}
+#navbar ul li{
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s;
+
+}
